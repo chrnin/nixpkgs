@@ -18,15 +18,15 @@ buildPythonPackage rec {
     owner = "dynaconf";
     repo = "dynaconf";
     rev = "refs/tags/${version}";
-    hash = "sha256-MBb8yCIs9DW77TKiV3qOHidt8/zi9m2dgyfB3xrdg3A=";
+    hash = "sha256-MHZziJdfCNKOltYIN3A/TazsK9sCYtb/GiMds4T5lIo=";
   };
 
   build-system = [ setuptools ];
 
-  #nativeCheckInputs = [ pytestCheckHook ];
+  nativeCheckInputs = [ ];
 
-  #pythonImportsCheck = [ "dynaconf" ];
-  doCheck = false;
+  pythonImportsCheck = [ "dynaconf" ];
+  
 
   meta = with lib; {
     description = "configuration management for Python";

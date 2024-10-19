@@ -23,8 +23,6 @@ buildPythonPackage rec {
 
   build-system = [ setuptools ];
 
-  nativeCheckInputs = [ ];
-
   pythonImportsCheck = [ "dynaconf" ];
   
 

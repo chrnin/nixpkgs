@@ -3829,6 +3829,11 @@
     github = "CHN-beta";
     githubId = 35858462;
   };
+  chrnin = {
+    name = "Christophe Ninucci";
+    email = "christophe-nix@zbouboutchi.net";
+    github = "chrnin";
+  };
   cholli = {
     email = "christoph.hollizeck@hey.com";
     github = "Daholli";
